@@ -12,8 +12,8 @@ pip install -r requirements.txt
 
 
 ## Data Preparation
-- Download the images from [dataset1]https://drive.google.com/file/d/1DolDF7l_ZpU1-RiluAa0Zq4aP9_SWk40/view?usp=sharing
-- Download the images from [dataset2]https://drive.google.com/file/d/15PpnkILWMax7qyczGy7-bgWJukL5eTZX/view?usp=sharing
+- Download the images from [dataset1](https://drive.google.com/file/d/1DolDF7l_ZpU1-RiluAa0Zq4aP9_SWk40/view?usp=sharing)
+- Download the images from [dataset2](https://drive.google.com/file/d/15PpnkILWMax7qyczGy7-bgWJukL5eTZX/view?usp=sharing)
 
 ```bash
 /data
