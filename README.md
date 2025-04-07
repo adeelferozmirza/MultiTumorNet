@@ -31,11 +31,6 @@ pip install -r requirements.txt
             val/
             test/
 ```
-## Pipeline
-
-<div align=center>
-<img src='image\arch.png' width='600'>
-</div>
 
 ## Train
 ```python
@@ -63,7 +58,7 @@ python3 test_image.py
 If you find our paper and code useful for your research, please consider giving a star :star:   and citation :pencil: :
 
 ```BibTeX
-@INPROCEEDINGS{10288646,
+@INPROCEEDINGS{
   author={},
   Journal={2025 The Visual Computer)}, 
   title={Efficient Multi-task Deep Learning for Accurate Segmentation of Invasive and Core Tumor Regions in Spheroids}, 
