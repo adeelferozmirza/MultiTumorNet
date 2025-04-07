@@ -1,4 +1,4 @@
-# TwinLiteNet: An Efficient and Lightweight Model for Driveable Area and Lane Segmentation in Self-Driving Cars
+# Efficient Multi-task Deep Learning for Accurate Segmentation of Invasive and Core Tumor Regions in Spheroids
 
 
 
@@ -12,25 +12,24 @@ pip install -r requirements.txt
 
 
 ## Data Preparation
-
-- Download the images from [images](https://bdd-data.berkeley.edu/).
-
-- Download the annotations of drivable area segmentation from [segments](https://drive.google.com/file/d/1xy_DhUZRHR8yrZG3OwTQAHhYTnXn7URv/view?usp=sharing). 
-- Download the annotations of lane line segmentation from [lane](https://drive.google.com/file/d/1lDNTPIQj_YLNZVkksKM25CvCHuquJ8AP/view?usp=sharing). 
+- Download the images from [dataset1]https://drive.google.com/file/d/1DolDF7l_ZpU1-RiluAa0Zq4aP9_SWk40/view?usp=sharing
+- Download the images from [dataset2]https://drive.google.com/file/d/15PpnkILWMax7qyczGy7-bgWJukL5eTZX/view?usp=sharing
 
 ```bash
 /data
-    bdd100k
+    Tumor_dataset
         images
             train/
             val/
             test/
-        segments
+        Core
             train/
             val/
-        lane
+            test/
+        Images
             train/
             val/
+            test/
 ```
 ## Pipeline
 
@@ -55,24 +54,7 @@ python3 val.py
 python3 test_image.py
 ```
 
-## Visualize
-### Drive-able segmentation
 
-<div align=center>
-<img src='image\DA_vs.jpg' width='600'>
-</div>
-### Lane Detection
-
-<div align=center>
-<img src='image\LL_vs.jpg' width='600'>
-</div>
-
-
-
-## Acknowledgement
-Our source code is inspired by:
-- [ESPNet](https://github.com/sacmehta/ESPNet)
-- [YOLOP](https://github.com/hustvl/YOLOP)
 
 
 
@@ -82,14 +64,13 @@ If you find our paper and code useful for your research, please consider giving 
 
 ```BibTeX
 @INPROCEEDINGS{10288646,
-  author={Che, Quang-Huy and Nguyen, Dinh-Phuc and Pham, Minh-Quan and Lam, Duc-Khai},
-  booktitle={2023 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)}, 
-  title={TwinLiteNet: An Efficient and Lightweight Model for Driveable Area and Lane Segmentation in Self-Driving Cars}, 
-  year={2023},
+  author={},
+  Journal={2025 The Visual Computer)}, 
+  title={Efficient Multi-task Deep Learning for Accurate Segmentation of Invasive and Core Tumor Regions in Spheroids}, 
+  year={2025},
   volume={},
   number={},
   pages={1-6},
-  doi={10.1109/MAPR59823.2023.10288646}}
 ```
 
 <div align="center">
