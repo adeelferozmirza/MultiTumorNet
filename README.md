@@ -26,7 +26,7 @@ pip install -r requirements.txt
             train/
             val/
             test/
-        Images
+        Whole
             train/
             val/
             test/
